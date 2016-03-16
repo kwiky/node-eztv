@@ -3,27 +3,20 @@ eztv
 
 EZTV API module for Node.js
 
-
-
 ### Install
 
-`npm install eztv --save`
-
-
+`npm install eztv-api --save`
 
 ### Use
 
 ```js
-var eztv = require('eztv');
+var eztv = require('eztv-api');
 eztv.getShows({query: 'big bang'}, function(error, results) {
 	// Do stuff...
 }
 ```
 
-
-
 ### Methods
-
 
 #### `getShows(options, callback)`
 
@@ -36,7 +29,7 @@ Returns a list of shows.
 `callback`: A function that takes two parameters:
 
 - `error`: Error object or null.
-- `results`: Array of shows. 
+- `results`: Array of shows.
 
 Each result is an object:
 
@@ -49,8 +42,6 @@ Each result is an object:
 	url: "/shows/23/the-big-bang-theory/"
 }
 ```
-
-
 
 #### `getShowEpisodes(showId, callback)`
 
@@ -69,7 +60,8 @@ Returns a list of episodes for a given show.
 {
 	episodes: [...],
 	id: 23,
-	title: "The Big Bang Theory"}
+	title: "The Big Bang Theory"
+}
 ```
 
 Each episode is an object:

@@ -1,6 +1,6 @@
 {
-  "name": "eztv",
-  "version": "0.0.10",
+  "name": "eztv-api",
+  "version": "0.0.11",
   "description": "EZTV API",
   "keywords": [
     "eztv",
@@ -10,17 +10,21 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moesalih/node-eztv.git"
+    "url": "https://github.com/kwiky/node-eztv.git"
   },
   "author": "Moe Salih <moe.salih@gmail.com>",
+  "contributors": [
+    "Moe Salih <moe.salih@gmail.com>",
+    "Steve Grosbois <steve@grosbois.fr>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moesalih/node-eztv/issues"
+    "url": "https://github.com/kwiky/node-eztv/issues"
   },
-  "homepage": "https://github.com/moesalih/node-eztv",
+  "homepage": "https://github.com/kwiky/node-eztv",
   "dependencies": {
-    "request": "^2.34.0",
-    "cheerio": "^0.13.1",
-    "string": "^1.8.0"
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0",
+    "string": "^3.3.1"
   }
 }
